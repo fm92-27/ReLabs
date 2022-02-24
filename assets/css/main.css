@@ -1,0 +1,14 @@
+@font-face {
+	font-family: LatoLight;
+	src: url('~assets/fonts/LatoLight.ttf') format('truetype');
+}
+html {
+	font-family: LatoLight;
+	height: 100%;
+}
+body, #__nuxt, #__layout {
+	height: 100vh;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
